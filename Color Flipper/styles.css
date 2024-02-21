@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+header {
+    padding: 10px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightgray;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+header .sections ul {
+    display: flex;
+}
+
+header .sections ul li {
+    padding-right: 15px;
+    text-decoration: none;
+    list-style: none;
+}
+
+header .logo {
+    font-size: 1.3rem;
+    color: aqua;
+    letter-spacing: .1rem;
+    text-shadow: -.5px 0 black, 0 .5px black, .5px 0 black, 0 -.5px black;
+}
+
+header .sections {
+    font-size: 01.1rem;
+    letter-spacing: .1rem;
+}
+
+.container{
+    min-height: 100vh;
+    background: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 3px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: transparent;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+    letter-spacing: .05rem;
+    transition:all .3s ease-in;
+}
+
+.container h3{
+    border: 3px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: black;
+    font-weight: 600;
+    letter-spacing: .1rem;
+}
+
+.container button:hover{
+    color: black;
+    background: transparent;
+}

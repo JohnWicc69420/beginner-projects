@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+.navbar {
+    background-color: green;
+    position: sticky;
+    top: 0;
+    transition: background-color .7s ease; 
+}
+
+.active {
+    background: blue;
+}
+
+@media screen{
+    
+}{
+    
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 70px;
+    
+}
+
+.nav-ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-ul li {
+    margin-right: 20px;
+}
+
+.nav-ul a {
+    text-decoration: none;
+    color: antiquewhite;
+}

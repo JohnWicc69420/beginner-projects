@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    background: linear-gradient(90deg, rgba(117, 11, 140, 1) 12%, rgba(23, 190, 60, 1) 100%);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.heading h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2.6rem;
+    color: aliceblue
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-color{
+    width: 300px;
+    height: 180px;
+    border-radius: 15px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-shadow: 2px 2px 7px black;
+    color: aliceblue;
+}
